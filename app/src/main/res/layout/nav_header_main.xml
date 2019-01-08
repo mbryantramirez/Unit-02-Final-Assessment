@@ -24,6 +24,8 @@
         android:layout_height="wrap_content"
         android:text="@string/cohort"/>
 
+    <!-- If you're setting a link in a textview you should make it an interactive link use
+     the attribute autoLink="all" or "email"-->
     <TextView
         android:id="@+id/email_textView"
         android:layout_width="wrap_content"

@@ -20,4 +20,8 @@ public class SecondActivity extends AppCompatActivity {
         textView.setText(getIntentString);
 
     }
+
+    /**
+     *  SecondActivity is missing onSavedInstanceState
+     */
 }

@@ -144,8 +144,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    /**
+     * Missing Email Subject Line and Email Body Text add using putExtra and adding Intent.EXTRA_SUBJECT and EXTRA_TEXT
+     */
     public void sendEmail() {
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:mail.pursuit.org"));
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:mail@pursuit.org"));
         intent.putExtra("Email from Pursuit", "This is my text!");
         startActivity(intent);
     }
